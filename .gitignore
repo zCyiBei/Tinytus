@@ -1,0 +1,35 @@
+# External tools
+tools/ffmpeg/bin
+ffmpeg.exe
+ffprobe.exe
+
+# Logs
+*.log
+logs/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Generated audio
+temp/
+converted/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Cache
+__pycache__/
+*.py[cod]
